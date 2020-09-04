@@ -9,9 +9,35 @@ body {
     background-attachment: fixed;
 }
 
+section:nth-of-type(1) {
+	max-width: 890px;
+	margin: 20px auto;
+}
+
+section:not(:first-child) {
+    background: #ebf2ff;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 20%;
+    border-radius: 1%;
+}
+
+section h5 span {
+    color: #bfbfbf;
+    margin: 0 5px;
+}
+
+footer nav ul li a {
+    color: #007bff;
+    font-size: 2rem;
+}
+
+footer nav ul li a:hover {
+    color: red;
+}
+
 .navBtn {
     width: 170px;
-    box-sizing: border-box;
     background-color: white;
     border-radius: 2%;
     padding: 1.25rem;
@@ -19,8 +45,13 @@ body {
 
 @media (min-width: 768px) {
 	.navBtn {
-		height: 130px;
     	width: 240px;
+	}	
+}
+
+@media (min-width: 1600px) {
+	.navBtn {
+		height: 130px;
 	}	
 }
 
@@ -38,22 +69,14 @@ body {
     padding-bottom: 15px;
 }
 
-section:nth-of-type(1) {
-	max-width: 900px;
-	margin: 20px auto;
+.principle {
+	font-size: 1.2em;
 }
 
-section:not(:first-child) {
-    background: #ebf2ff;
-    width: 95%;
-    margin: auto;
-    margin-bottom: 20%;
-    border-radius: 1%;
-}
 
-section h5 span {
-    color: #bfbfbf;
-    margin: 0 5px;
+
+#home {
+	margin-bottom: 20%;
 }
 
 #projectsBtn:hover {
@@ -71,4 +94,3 @@ section h5 span {
 #valuesBtn:hover {
     background-color: #d9f6ff;
 }
-
