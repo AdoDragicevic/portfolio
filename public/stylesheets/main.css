@@ -9,6 +9,17 @@ body {
     background-attachment: fixed;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 section:nth-of-type(1) {
 	max-width: 890px;
 	margin: 20px auto;
@@ -23,6 +34,11 @@ section:not(:first-child) {
 }
 
 section h5 span {
+    color: #bfbfbf;
+    margin: 0 5px;
+}
+
+section h2 span {
     color: #bfbfbf;
     margin: 0 5px;
 }
@@ -71,6 +87,7 @@ footer nav ul li a:hover {
 
 .principle {
 	font-size: 1.2em;
+	letter-spacing: 1.4px;
 }
 
 
