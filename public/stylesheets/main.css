@@ -36,11 +36,7 @@ section:not(:first-child) {
 section h5 span {
     color: #bfbfbf;
     margin: 0 5px;
-}
-
-section h2 span {
-    color: #bfbfbf;
-    margin: 0 5px;
+	
 }
 
 footer nav ul li a {
