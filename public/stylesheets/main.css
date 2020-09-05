@@ -127,8 +127,11 @@ footer nav ul li a:hover {
 	width: 50px;
 }
 
-.modal-content {
-	background-color: rgba(0, 0, 0, 0.7);
+#myModal {
+	border: none;
 }
 
-/* wooo hooooo * /
+.modal-content {
+	background: linear-gradient(90deg, rgba(2,0,36,1) 14%, rgba(46,46,219,1) 68%, rgba(0,210,252,1) 100%);
+	border: none;
+}
