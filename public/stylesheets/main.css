@@ -9,16 +9,15 @@ body {
     background-attachment: fixed;
 }
 
+/*
+ :::::::::: FONTS ::::::::::::
+font-family: 'Calligraffitti', cursive;
+font-family: 'Sedgwick Ave', cursive;
+font-family: 'Sedgwick Ave Display', cursive;
 
+ovo za short about::::	font-family: 'Sedgwick Ave Display', cursive;
 
-
-
-
-
-
-
-
-
+*/
 
 section:nth-of-type(1) {
 	max-width: 890px;
@@ -106,4 +105,11 @@ footer nav ul li a:hover {
 
 #valuesBtn:hover {
     background-color: #d9f6ff;
+}
+
+#detailedAbout {
+	overflow-y: scroll; 
+	height: 400px; 
+	padding: 20px;
+	line-height: 160%;
 }
