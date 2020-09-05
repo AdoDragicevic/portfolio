@@ -6,7 +6,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed;	
 }
 
 
@@ -98,6 +98,15 @@ footer nav ul li a:hover {
 	letter-spacing: 1.4px;
 }
 
+/* When modal is opened */
+.blur {
+	filter: blur(5px);
+}
+
+.noBlur {
+	filter: blur(0px);
+}
+
 
 
 #home {
@@ -132,7 +141,18 @@ footer nav ul li a:hover {
 	line-height: 160%;
 }
 
+<<<<<<< HEAD
 
 #arrow {
 	width: 50px;
 }
+=======
+#arrow {
+	width: 50px;
+}
+
+.modal-content {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+>>>>>>> modal
