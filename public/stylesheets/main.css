@@ -113,3 +113,7 @@ footer nav ul li a:hover {
 	padding: 20px;
 	line-height: 160%;
 }
+
+#arrow {
+	width: 50px;
+}
