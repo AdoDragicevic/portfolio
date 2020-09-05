@@ -9,6 +9,7 @@ body {
     background-attachment: fixed;
 }
 
+
 /*
  :::::::::: FONTS ::::::::::::
 font-family: 'Calligraffitti', cursive;
@@ -19,10 +20,12 @@ ovo za short about::::	font-family: 'Sedgwick Ave Display', cursive;
 
 */
 
+
 section:nth-of-type(1) {
 	max-width: 890px;
 	margin: 20px auto;
 }
+
 
 section:not(:first-child) {
     background: #ebf2ff;
@@ -32,20 +35,24 @@ section:not(:first-child) {
     border-radius: 1%;
 }
 
+
 section h5 span {
     color: #bfbfbf;
     margin: 0 5px;
 	
 }
 
+
 footer nav ul li a {
     color: #007bff;
     font-size: 2rem;
 }
 
+
 footer nav ul li a:hover {
     color: red;
 }
+
 
 .navBtn {
     width: 170px;
@@ -54,11 +61,13 @@ footer nav ul li a:hover {
     padding: 1.25rem;
 }
 
+
 @media (min-width: 768px) {
 	.navBtn {
     	width: 240px;
 	}	
 }
+
 
 @media (min-width: 1600px) {
 	.navBtn {
@@ -66,19 +75,23 @@ footer nav ul li a:hover {
 	}	
 }
 
+
 .project {
     border: 1px dotted black;
     padding: 30px;
 }
 
+
 .skill {
 	padding: 30px;
 }
+
 
 .skill h2 {
     border-bottom: 1px dotted black;
     padding-bottom: 15px;
 }
+
 
 .principle {
 	font-size: 1.2em;
@@ -91,25 +104,35 @@ footer nav ul li a:hover {
 	margin-bottom: 20%;
 }
 
+
 #projectsBtn:hover {
     background-color: #fff99e;
 }
+
 
 #skillsBtn:hover {
     background-color: #dcffcc;
 }
 
+
 #aboutBtn:hover {
     background-color: #e6e9ff;
 }
 
+
 #valuesBtn:hover {
     background-color: #d9f6ff;
 }
+
 
 #detailedAbout {
 	overflow-y: scroll; 
 	height: 400px; 
 	padding: 20px;
 	line-height: 160%;
+}
+
+
+#arrow {
+	width: 50px;
 }
