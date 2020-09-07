@@ -39,12 +39,7 @@ section h5 span {
 }
 
 footer nav ul li a {
-    color: #007bff;
     font-size: 2rem;
-}
-
-footer nav ul li a:hover {
-    color: red;
 }
 
 .navBtn {
@@ -94,6 +89,11 @@ footer nav ul li a:hover {
 	filter: blur(0px);
 }
 
+.modal-content {
+	background: linear-gradient(90deg, rgba(2,0,36,1) 14%, rgba(46,46,219,1) 68%, rgba(0,210,252,1) 100%);
+	border: none;
+}
+
 
 
 #home {
@@ -123,15 +123,15 @@ footer nav ul li a:hover {
 	line-height: 160%;
 }
 
+#whatsappIcon {
+	font-weight: 800; 
+	font-size: 2.2rem;
+}
+
 #arrow {
 	width: 50px;
 }
 
 #myModal {
-	border: none;
-}
-
-.modal-content {
-	background: linear-gradient(90deg, rgba(2,0,36,1) 14%, rgba(46,46,219,1) 68%, rgba(0,210,252,1) 100%);
 	border: none;
 }
