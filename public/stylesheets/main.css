@@ -82,6 +82,10 @@ footer nav ul li a {
     padding-bottom: 15px;
 }
 
+.text-green {
+	color: green;
+}
+
 .principle {
 	font-size: 1.2em;
 	letter-spacing: 1.4px;
@@ -106,16 +110,15 @@ footer nav ul li a {
 }
 
 .carousel-item {
-	max-height: 400px; 
+	max-height: 430px; 
 	overflow-y: auto; 
 	padding-right: 10px;
 }
 
 .carousel-item p {
 	line-height: 170%;
+	font-size: 1.1rem;
 }
-
-
 
 #home {
 	margin-bottom: 20%;
@@ -135,7 +138,6 @@ footer nav ul li a {
 
 #shortAbout {
 	font-style: italic;
-	padding-left: 20px;
 	font-size: 1.5rem;
 	letter-spacing: 3px;
 	line-height: 190%;
@@ -147,14 +149,18 @@ footer nav ul li a {
 }
 
 #carouselExampleIndicators {
-	height: 455px; 
+	height:500px; 
 	padding: 20px;
 	line-height: 160%;
 }
 
 #carouselArrows {
 	height: 10px;
-	font-size: 1.3rem;
+	font-size: 2rem;
+}
+
+#gitIcon {
+	background-color: #fc107;	
 }
 
 #whatsappIcon {
