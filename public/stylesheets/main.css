@@ -11,7 +11,10 @@ body {
 
 /*
  :::::::::: FONTS ::::::::::::
+tanak elegantan
 font-family: 'Calligraffitti', cursive;
+
+
 font-family: 'Sedgwick Ave', cursive;
 font-family: 'Sedgwick Ave Display', cursive;
 
@@ -71,7 +74,7 @@ footer nav ul li a {
 }
 
 .skill {
-	padding: 30px;
+	padding: 25px;
 }
 
 .skill h2 {
@@ -103,9 +106,13 @@ footer nav ul li a {
 }
 
 .carousel-item {
-	max-height: 380px; 
+	max-height: 400px; 
 	overflow-y: auto; 
 	padding-right: 10px;
+}
+
+.carousel-item p {
+	line-height: 170%;
 }
 
 
@@ -126,12 +133,21 @@ footer nav ul li a {
     background-color: #e6e9ff;
 }
 
+#shortAbout {
+	font-style: italic;
+	padding-left: 20px;
+	font-size: 1.5rem;
+	letter-spacing: 3px;
+	line-height: 190%;
+	font-family: 'Sedgwick Ave', cursive;	
+}
+
 #valuesBtn:hover {
     background-color: #d9f6ff;
 }
 
 #carouselExampleIndicators {
-	height: 450px; 
+	height: 455px; 
 	padding: 20px;
 	line-height: 160%;
 }
