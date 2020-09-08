@@ -119,9 +119,8 @@ footer nav ul li a {
     background-color: #d9f6ff;
 }
 
-#detailedAbout {
-	overflow-y: scroll; 
-	height: 400px; 
+#carouselExampleIndicators {
+	height: 450px; 
 	padding: 20px;
 	line-height: 160%;
 }
@@ -133,4 +132,15 @@ footer nav ul li a {
 
 #arrow {
 	width: 50px;
+}
+
+.carousel-indicators li {
+	color: #004494 !important;
+	background-color: blue !important;
+}
+
+.carousel-item {
+	max-height: 380px; 
+	overflow-y: auto; 
+	padding-right: 10px;
 }
