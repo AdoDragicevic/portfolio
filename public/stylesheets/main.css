@@ -1,12 +1,12 @@
 body {
     height: 100%;
     margin: 0;
-    padding: 0;
+    padding: 0 !important;
     background-image: url("/imgs/ado.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-attachment: fixed;	
+    background-attachment: fixed;
 }
 
 /*
@@ -40,6 +40,10 @@ section h5 span {
 
 footer nav ul li a {
     font-size: 2rem;
+}
+
+.modal-open {
+    overflow: auto;
 }
 
 .navBtn {
@@ -90,8 +94,7 @@ footer nav ul li a {
 }
 
 .modal-content {
-	background: linear-gradient(90deg, rgba(2,0,36,1) 14%, rgba(46,46,219,1) 68%, rgba(0,210,252,1) 100%);
-	border: none;
+	background-color: rgba(33,37,41, 0.9);
 }
 
 
@@ -130,8 +133,4 @@ footer nav ul li a {
 
 #arrow {
 	width: 50px;
-}
-
-#myModal {
-	border: none;
 }
