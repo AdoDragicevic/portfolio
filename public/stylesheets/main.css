@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 body {
     height: 100%;
     margin: 0;
@@ -5,8 +9,8 @@ body {
     background-image: url("/imgs/ado.jpg");
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
+   	background-size: cover;
+	background-attachment: fixed;
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -23,18 +27,19 @@ section:not(:first-child) {
     border-radius: 1%;
 }
 
-section h5 span {
-    color: #bfbfbf;
-    margin: 0 5px;	
-}
-
-section h3 span {
+section h2 span {
     color: #bfbfbf;
     margin: 0 5px;	
 }
 
 footer nav ul li a {
     font-size: 2rem;
+}
+
+ol {
+	padding-left: 5px;
+	margin-left: 5px;
+	text-align: left;
 }
 
 .project h3 {
@@ -108,7 +113,7 @@ footer nav ul li a {
 }
 
 .carousel-item {
-	max-height: 430px; 
+	max-height: 500px; 
 	overflow-y: auto; 
 	padding-right: 10px;
 }
@@ -154,10 +159,10 @@ footer nav ul li a {
 
 #shortAbout {
 	font-style: italic;
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 	letter-spacing: 3px;
 	line-height: 190%;
-	font-family: 'Sedgwick Ave', cursive;	
+	font-family: 'Sedgwick Ave', cursive;
 }
 
 @media (max-width: 600px) {
@@ -173,7 +178,7 @@ footer nav ul li a {
 }
 
 #carouselExampleIndicators {
-	height:500px; 
+	height:600px; 
 	padding: 20px;
 	line-height: 160%;
 }

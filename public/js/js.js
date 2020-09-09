@@ -6,6 +6,3 @@ $(document).scroll(function () {
 		$("#arrow").addClass("d-none");
 	}	
 });
-
-
-
