@@ -2,13 +2,13 @@ html {
 	scroll-behavior: smooth;
 }
 
-html, body{
-	width: 100%;
+html, body {
+	width: auto!important; 
+	overflow-x: hidden!important;
 	height: 100%;
-}
+} 
 
 body {
-    height: 100%;
     margin: 0;
     padding: 0 !important;
     background-image: url("/imgs/ado.jpg");
@@ -19,14 +19,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-@media (max-width: 500px) {
-	body {
-		background-image: url("/imgs/ado.jpg");
-		background-attachment: scroll;
-		background-color: #444c59;
-		background-size: 280% 150%;
-		background-position: 50% 65%;
-	}
+@media (max-width: 600px) {
 	#projects, #skills, #about, #values {
     	border-radius: 0;
 		border: 1px solid white;
@@ -188,9 +181,18 @@ h3 {
      0.8px 0.8px 0 gray;
 }
 
+#title h3 {
+			text-shadow:
+   -0.8px -0.8px 0 black,  
+    0.8px -0.8px 0 black,
+    -0.8px 0.8px 0 black,
+     0.8px 0.8px 0 black;
+}
+
 #home {
 	margin-bottom: 20%;
 }
+
 
 @media (max-width: 776px) {
 	#projects {
