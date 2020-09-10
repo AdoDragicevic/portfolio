@@ -19,12 +19,22 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-
+@media (max-width: 500px) {
+	body {
+		background-image: url("/imgs/ado.jpg");
+		background-attachment: scroll;
+		background-color: #444c59;
+		background-size: 280% 150%;
+		background-position: 50% 65%;
+	}
+	#projects, #skills, #about, #values {
+    	border-radius: 0;
+		border: 1px solid white;
+	}
+}
 	/* 
 @supports (-webkit-touch-callout: none)
-   CSS specific to iOS devices
-
-	background-color: #444c59; */
+   CSS specific to iOS devices  */
 	
 
 section:nth-of-type(1) {
@@ -38,6 +48,7 @@ section:not(:first-child) {
     margin: auto;
     margin-bottom: 20%;
     border-radius: 1%;
+	border: 1px solid white;
 }
 
 section h2 span {
@@ -73,6 +84,17 @@ ol {
     border-radius: 2%;
  	padding: 1.2rem;
 	font-family: 'Sedgwick Ave', cursive;
+}
+
+@media (max-width: 500px) {
+	.navBtn {
+		padding-top: 10px;
+		padding-bottom: 0;
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-left: 5px;
+		border-radius: 70%
+	}
 }
 
 @media (min-width: 768px) {
@@ -122,8 +144,8 @@ ol {
 }
 
 .carousel-item {
-	max-height: 500px; 
-	overflow-y: auto; 
+	max-height: 400px; 
+	overflow-y: auto;
 	padding-right: 10px;
 }
 
@@ -145,7 +167,6 @@ ol {
 .markerFont {
 	font-family: 'Sedgwick Ave', cursive;
 }
-
 /* ====================================== */
 
 
@@ -167,12 +188,6 @@ ol {
 	}
 }
 
-@media (max-width: 450px) {
-	#projects ul {
-		text-align: left !important;
-	}
-}
-
 
 
 #projectsBtn:hover {
@@ -187,20 +202,16 @@ ol {
     background-color: #e6e9ff;
 }
 
+#valuesBtn:hover {
+    background-color: #d9f6ff;
+}
+
 #shortAbout {
 	font-style: italic;
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 	letter-spacing: 3px;
 	line-height: 190%;
 	font-family: 'Sedgwick Ave', cursive;
-}
-
-@media (max-width: 600px) {
-	#shortAbout {
-		font-size: 1.2rem;
-		letter-spacing: 1.4px;
-		line-height: 160%;	
-	}	
 }
 
 #values h3 {
@@ -215,17 +226,13 @@ ol {
 	padding-left: 5px;
 }
 
-#valuesBtn:hover {
-    background-color: #d9f6ff;
-}
-
 #valuesList {
 	list-style-type: none;
 	margin-left: 10px;	
 }
 
 #carouselExampleIndicators {
-	height:600px; 
+	height:500px; 
 	padding: 20px;
 	line-height: 160%;
 }
@@ -250,4 +257,22 @@ ol {
 
 #arrow {
 	width: 50px;
+}
+
+@media (max-width: 550px) {
+	#projects, #skills, #about, #values {
+    	border-radius: 0;
+		border: 1px solid white;
+	}
+	#projects {
+		margin-top: 35%;
+	}
+	#projects ul {
+		text-align: left !important;
+	}
+	#shortAbout {
+		font-size: 1.3rem;
+		letter-spacing: 1px;
+		line-height: 170%;
+	}
 }
