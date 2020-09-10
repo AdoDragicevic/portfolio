@@ -6,3 +6,14 @@ $(document).scroll(function () {
 		$("#arrow").addClass("d-none");
 	}	
 });
+
+
+
+// adds mobile class, and mobile os to html tag
+jQuery(document).ready(function($){
+var deviceAgent = navigator.userAgent.toLowerCase();
+
+if (deviceAgent.match(/(iphone|ipod|ipad)/)) {
+$('.iparaxify').removeClass('paraxify');
+}
+});

@@ -26,6 +26,10 @@
 
 <body>
 	
+	<div class="fixed-img">
+		
+	</div>
+	
 	
 	<header>
 		
@@ -58,11 +62,19 @@
 				<!-- Title -->
 				<div class="row">
 
-					<div class="col-12 text-white text-center">
+					<div id="title" class="col-12 text-white text-center">
 
-						<h1 class="display-1 pt-5 elegantFont">Ado Dragicevic</h1>
-
-						<h3 class="d-none d-md-block markerFont">Full Stack Web Developer</h3>
+						<!-- xs -->
+						<h1 class="d-sm-none pt-5 elegantFont">Ado Dragicevic</h1>
+						
+						<!-- sm -->
+						<h1 class="d-none d-sm-block d-md-none display-3 pt-5 elegantFont">Ado Dragicevic</h1>
+						
+						<!-- md, lg, xl -->
+						<h1 class="d-none d-md-block display-1 pt-5 elegantFont">Ado Dragicevic</h1>
+						
+						
+						<h3 class="d-none d-sm-block markerFont">Full Stack Web Developer</h3>
 
 					</div>
 
@@ -405,7 +417,7 @@
 							
 							<p> My name is Ado. </p>
 							
-							<p> I am a lawyer, specialized in <strong class="text-danger">GDPR</strong>, and I fell in love with <strong class="text-green">programming</strong>! </p>
+							<p> I am a lawyer, specialized in <strong class="text-danger">GDPR</strong>, who fell in love with <strong class="text-green">programming</strong>! </p>
 							
 							<p class="d-none d-lg-block my-4"> <small>I have a deep understanding GDRP, and can apply principles of data protection by design and by default to the projects I work on. </small> </p>
 
@@ -438,7 +450,7 @@
 										
 										<div class="carousel-item active px-3">
 									  		
-											<h4> Legal <i class="fas fa-balance-scale ml-2"></i> </h4>
+											<h4> <strong> Legal </strong>  <i class="fas fa-balance-scale ml-2"></i> </h4>
 											
 											<hr>
 											
@@ -452,7 +464,7 @@
 									
 										<div class="carousel-item">
 											
-											<h4> Programming <i class="fas fa-laptop-code ml-2"></i> </h4>
+											<h4> <strong> Programming </strong> <i class="fas fa-laptop-code ml-2"></i> </h4>
 											
 											<hr>
 											
@@ -471,7 +483,7 @@
 										
 										<div class="carousel-item">
 											
-											<h4> Steps I am taking <i class="fas fa-user-graduate ml-2"></i> </h4>
+											<h4> <strong> Steps I am taking </strong> <i class="fas fa-user-graduate ml-2"></i> </h4>
 											
 											<hr>
 											
@@ -502,7 +514,7 @@
 													
 													<!-- JavaScript: Understanding the Weird Parts Anthnoy Alicea -->
 													<li class="mb-3">
-														<em> <strong> The Modern Javascript Bootcamp Course</strong>; Colt Steele, Stephen Griner</em>
+														<em> <strong> The Modern Javascript Bootcamp</strong>; Colt Steele, Stephen Griner</em>
 														<br>
 														<progress value="0" max="100"> 100% </progress>
 													</li>
@@ -550,7 +562,7 @@
 										
 										<div class="carousel-item">
 											
-									  		<h4> Personal <i class="fas fa-user-check ml-2"></i> </h4>
+									  		<h4> <strong> Personal </strong> <i class="fas fa-user-check ml-2"></i> </h4>
 											
 											<hr>
 											
@@ -617,11 +629,11 @@
 						
 					</div>
 					
-					<div class="col-10 col-md-8 col-xl-6 m-auto">
+					<div class="col-11 col-md-8 col-xl-6 m-auto">
 						
 						<h3 class="pt-4 pb-5 markerFont"> <em> Principles that inspire my world . . . </em> </h3>
 					
-						<ul class="pb-4">
+						<ul id="valuesList" class="pb-4">
 
 							<li>
 								<span class="principle">Customer Satisfaction</span>
