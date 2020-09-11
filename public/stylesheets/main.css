@@ -221,6 +221,12 @@ h3 {
 	letter-spacing: 3px;
 	line-height: 190%;
 	font-family: 'Sedgwick Ave', cursive;
+	color: #001f52;
+	text-shadow:
+   		0.1px 0.1px 0 gray,  
+		0.1px 0.1px 0 gray,
+    	0.1px 0.1px 0 gray,
+    	0.1px 0.1px 0 gray;
 }
 
 #values h3 {
@@ -249,6 +255,10 @@ h3 {
 #carouselArrows {
 	height: 10px;
 	font-size: 2rem;
+}
+
+#modalPersonalData {
+	letter-spacing: 1.2px;
 }
 
 #gitIcon {
