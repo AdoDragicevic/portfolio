@@ -6,7 +6,3 @@ document.body.addEventListener('scroll', function(){
 		$("#arrow").addClass("d-none");
 	}	
 });
-
-$("#arrow").click(function(){
-	document.body.scrollTop();
-});
