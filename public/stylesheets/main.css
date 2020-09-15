@@ -3,7 +3,7 @@ html, body {
 	overflow-x: hidden!important;
 	height: 100%;
 	scroll-behavior: smooth;
-} 
+}
 
 body {
     margin: 0;
@@ -14,18 +14,7 @@ body {
    	background-size: cover;
 	background-attachment: fixed;
 	font-family: 'Roboto', sans-serif;
-}
-
-@media (max-width: 600px) {
-	#projects, #skills, #about, #values {
-    	border-radius: 0;
-		border: 1px solid white;
-	}
-}
-	/* 
-@supports (-webkit-touch-callout: none)
-   CSS specific to iOS devices  */
-	
+}	
 
 section:nth-of-type(1) {
 	max-width: 890px;
@@ -129,6 +118,10 @@ h3 {
 	color: green;
 }
 
+.aboutBracket {
+	font-size: 4.1rem;
+}
+
 .principle {
 	font-size: 1.2em;
 }
@@ -145,8 +138,7 @@ h3 {
 .carousel-item {
 	max-height: 400px; 
 	overflow-y: auto;
-	padding-right: 10px;
-	
+	padding-right: 10px;	
 }
 
 .carousel-item p {
@@ -182,6 +174,7 @@ h3 {
      0.8px 0.8px 0 gray;
 }
 
+
 #title h3 {
 			text-shadow:
    -0.8px -0.8px 0 black,  
@@ -190,9 +183,13 @@ h3 {
      0.8px 0.8px 0 black;
 }
 
+
 #home {
 	margin-bottom: 20%;
 }
+
+
+
 
 
 @media (max-width: 776px) {
@@ -200,7 +197,6 @@ h3 {
 		margin-top: 50%;
 	}
 }
-
 
 
 #projectsBtn:hover {
@@ -282,7 +278,7 @@ h3 {
 	width: 50px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 600px) {
 	#projects, #skills, #about, #values {
     	border-radius: 0;
 		border: 1px solid white;
