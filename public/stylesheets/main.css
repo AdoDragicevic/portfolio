@@ -189,12 +189,9 @@ h3 {
 }
 
 
-
-
-
 @media (max-width: 776px) {
-	#projects {
-		margin-top: 50%;
+	#home {
+		margin-bottom: 80%;
 	}
 }
 
@@ -203,9 +200,11 @@ h3 {
     background-color: #fff99e;
 }
 
+
 #skillsBtn:hover {
     background-color: #dcffcc;
 }
+
 
 #aboutBtn:hover {
     background-color: #e6e9ff;
@@ -214,6 +213,7 @@ h3 {
 #valuesBtn:hover {
     background-color: #d9f6ff;
 }
+
 
 #shortAbout {
 	font-style: italic;
@@ -229,22 +229,27 @@ h3 {
     	0.1px 0.1px 0 gray;
 }
 
+
 #values h3 {
 	line-height: 140%;
 }
+
 
 #values {
 	line-height: 180%;
 }
 
+
 #values ul {
 	padding-left: 5px;
 }
+
 
 #valuesList {
 	list-style-type: none;
 	margin-left: 10px;	
 }
+
 
 #carouselExampleIndicators {
 	height:500px; 
