@@ -210,6 +210,10 @@ h3 {
     background-color: #e6e9ff;
 }
 
+#aboutGdprLink a:hover {
+	text-decoration-color: #dc3545;
+}
+
 #valuesBtn:hover {
     background-color: #d9f6ff;
 }
