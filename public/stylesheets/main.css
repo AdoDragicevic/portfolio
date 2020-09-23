@@ -226,21 +226,6 @@ h3 {
 }
 
 
-#shortAbout {
-	font-style: italic;
-	font-size: 1.8rem;
-	letter-spacing: 3px;
-	line-height: 190%;
-	font-family: 'Sedgwick Ave', cursive;
-	color: #001f52;
-	text-shadow:
-   		0.1px 0.1px 0 gray,  
-		0.1px 0.1px 0 gray,
-    	0.1px 0.1px 0 gray,
-    	0.1px 0.1px 0 gray;
-}
-
-
 #values h3 {
 	line-height: 140%;
 }
