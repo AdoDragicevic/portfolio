@@ -85,6 +85,12 @@ h3 {
 	}
 }
 
+@media (min-width: 501px) and (max-width: 765px) {
+	.navBtn {
+		padding-bottom: 0.5rem;
+	}
+}
+
 @media (min-width: 768px) {
 	.navBtn {
     	width: 240px;
@@ -94,6 +100,7 @@ h3 {
 @media (min-width: 1600px) {
 	.navBtn {
 		height: 120px;
+		padding: 1.6rem;
 	}	
 }
 
